@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        div {
+            color:cadetblue;
+            text-align: center;
+            background-color:antiquewhite;
+            }
+    </style>
+</head>
+    
+<body>
+    {{#angryBirdsList}}
+    <div>
+    <h1>Hi I am  {{name}}</h1>
+    <p><img src={{image}}></p>
+    <p>And this is my personal informations</p>
+    <p>Abilities : {{abilities}}</p>
+    <p>Group : {{group}}</p>
+    <p>Species : {{species}}</p>
+    <p>Feels : {{feels}}</p>
+    {{/angryBirdsList}}
+    </div>
+</body>
+</html>
